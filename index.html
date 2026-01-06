@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Digital Marketing Agency in Sri Lanka | Nexia.lk</title>
+
+<meta name="description" content="Nexia.lk is a digital marketing agency in Sri Lanka offering SEO services, website design, content creation, and social media marketing to help businesses grow online.">
+<meta name="keywords" content="digital marketing agency in sri lanka, SEO services sri lanka, website design sri lanka, social media marketing sri lanka, Nexia marketing agency">
+<meta name="author" content="Nexia Marketing Agency">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f9f9f9;
+    color:#333;
+    scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#ffffff;
+    padding:15px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    z-index:999;
+}
+
+nav h1{
+    color:#0a1a5e;
+    font-weight:700;
+    font-size:24px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+nav ul li a:hover{
+    color:#0a1a5e;
+}
+
+/* HERO */
+.hero{
+    height:100vh;
+    background:linear-gradient(120deg,#0a1a5e,#2563eb);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:50px;
+    animation:fadeDown 1.2s;
+}
+
+.hero p{
+    font-size:18px;
+    margin:20px 0;
+    animation:fadeUp 1.5s;
+}
+
+.hero a{
+    padding:14px 36px;
+    background:white;
+    color:#0a1a5e;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.hero a:hover{
+    background:#e0e7ff;
+    transform:scale(1.05);
+}
+
+/* SECTIONS */
+section{
+    padding:80px 60px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:36px;
+    color:#0a1a5e;
+}
+
+/* ABOUT */
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.about img{
+    width: 300px;
+    height: 300px;
+    border-radius:20px;
+    animation:float 4s infinite;
+}
+
+/* SERVICES */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.service-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.service-card:hover{
+    transform:translateY(-12px);
+}
+
+/* PORTFOLIO */
+.portfolio{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.portfolio img{
+    width:100%;
+    border-radius:20px;
+    transition:0.4s;
+}
+
+.portfolio img:hover{
+    transform:scale(1.05);
+}
+
+/* PRICING */
+.pricing{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.price-card{
+    background:white;
+    padding:30px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 15px 30px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.price-card:hover{
+    transform:translateY(-10px);
+}
+
+.price{
+    font-size:36px;
+    color:#2563eb;
+    margin:15px 0;
+}
+
+/* PROCESS */
+.process{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:30px;
+    text-align:center;
+}
+
+.step{
+    background:#eef2ff;
+    padding:30px;
+    border-radius:20px;
+}
+
+/* CONTACT */
+.contact{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.contact input,
+.contact textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+.contact button{
+    background:#0a1a5e;
+    color:white;
+    border:none;
+    padding:12px;
+    width:100%;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+    background:#0a1a5e;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* ANIMATIONS */
+@keyframes fadeDown{
+    from{opacity:0; transform:translateY(-40px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+@keyframes fadeUp{
+    from{opacity:0; transform:translateY(40px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+@keyframes float{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-15px);}
+    100%{transform:translateY(0);}
+}
+
+@media(max-width:900px){
+    .about,.contact{
+        grid-template-columns:1fr;
+    }
+}
+
+.whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: #fff;
+            padding: 15px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        
+
+</style>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "7yiKCBvFBR4zql4g7",
+      });
+   })();
+</script>
+
+</head>
+
+<body>
+
+<nav>
+    <h1>Nexia.lk</h1>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#pricing">Packages</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Digital Marketing Agency in Sri Lanka</h1>
+        <p>Connecting vision to influence through SEO, web design & digital marketing.</p>
+        <a href="#contact">Get Started</a>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="section-title">
+        <h2>About Nexia Marketing Agency</h2>
+    </div>
+    <div class="about">
+        <div>
+            <p>
+                Nexia Marketing Agency is a Sri Lanka-based digital marketing company helping startups
+                and businesses grow online. We specialize in SEO services, website design and management,
+                content creation, and social media marketing to build strong and trusted online brands.
+            </p>
+        </div>
+        <img src="img/815-8158398_digital-marketing-png-icon.png" height="250px" width="375px"
+             alt="Digital marketing agency in Sri Lanka illustration">
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <div class="section-title">
+        <h2>Our Digital Marketing Services</h2>
+    </div>
+
+    <div class="services">
+        <div class="service-card">
+            <h3>Website Design & Management</h3>
+            <p>
+                We design fast, responsive, and professional websites that help businesses
+                in Sri Lanka convert visitors into customers.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>SEO Services in Sri Lanka</h3>
+            <p>
+                Our SEO services help businesses rank higher on Google, increase organic
+                traffic, and attract the right customers.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>Social Media Marketing</h3>
+            <p>
+                We manage Facebook and Instagram marketing campaigns to grow brand awareness,
+                engagement, and leads.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>Content Creation & Graphic Design</h3>
+            <p>
+                We create professional content, visuals, and graphics that clearly represent
+                your brand identity.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+    <div class="section-title">
+        <h2>Our Work & Portfolio</h2>
+    </div>
+
+    <div class="portfolio">
+        <img src="img/Screenshot 2025-12-22 180114.png"
+             alt="Website design project by Nexia marketing agency">
+        <img src="img/50a0f2a4-ebd8-4d22-891c-9593b9542f9d.png"
+             alt="SEO analytics and optimization project">
+        <img src="img/Screenshot 2026-01-02 235234.png"
+             alt="Social media marketing services in Sri Lanka">
+        <img src="img/Screenshot 2026-01-03 000151.png"
+            alt="Social media marketing services in Sri Lanka">
+    </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+    <div class="section-title">
+        <h2>Our Digital Marketing Packages</h2>
+    </div>
+
+    <div class="pricing">
+        <div class="price-card">
+            <h3>Starter</h3>
+            <div class="price"></div>
+            <p>Website + Basic SEO</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Growth</h3>
+            <div class="price"></div>
+            <p>SEO + Content + Social Media</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Premium</h3>
+            <div class="price"></div>
+            <p>Complete Digital Marketing Solution</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+    <div class="section-title">
+        <h2>Our Process</h2>
+    </div>
+
+    <div class="process">
+        <div class="step">📌 Research & Planning</div>
+        <div class="step">🎨 Design & Strategy</div>
+        <div class="step">🚀 Execution</div>
+        <div class="step">📈 Growth & Support</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="section-title">
+        <h2>Contact Nexia Marketing Agency</h2>
+    </div>
+
+    <div class="contact">
+        <div>
+            <p>Email: info@thenexiamarketing.com</p>
+            <p>WhatsApp: +94751864255</p>
+            <p>24/7 Online Support Available</p>
+        </div>
+
+        <form id="contact-form" >
+
+            
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="date" name="dob" placeholder="Date of Birth" required>
+            <select name="service" required>
+            <option value="">Select Service</option>
+            <option>SEO</option>
+            <option>Web Designing</option>
+            <option>Content Creation</option>
+            <option>Social Media Management</option>
+            <option>Graphic Designing</option>
+            <option>Advertising & Promotions</option>
+            </select>
+            <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+            <button>Send Message</button>
+        </form>
+    </div>
+    <a class="whatsapp"
+    href="https://wa.me/94751864255?text=Hello%20Nexia%20Marketing%20Solutions,%20I%20am%20interested%20in%20your%20services"
+    target="_blank">
+    WhatsApp
+    </a>
+ <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+<script>
+(function () {
+  emailjs.init("7yiKCBvFBR4zql4g7"); // your public key
+})();
+
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  // 1️⃣ Send ADMIN email
+  emailjs.sendForm(
+    "service_63e5pjj",
+    "template_d0h08lf",
+    this
+  ).then(function () {
+
+    // 2️⃣ Send USER auto-reply email
+    return emailjs.sendForm(
+      "service_63e5pjj",
+      "template_cbhgz6m",
+      e.target
+    );
+
+  }).then(function () {
+    alert("Message sent successfully!");
+    document.getElementById("contact-form").reset();
+
+  }).catch(function (error) {
+    alert("Failed: " + error.text);
+    console.error("EmailJS Error:", error);
+  });
+});
+</script>
+
+</section>
+
+<footer>
+    <p>© 2025 Nexia.lk | Digital Marketing Agency in Sri Lanka | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
